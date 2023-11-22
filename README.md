@@ -39,9 +39,8 @@ ORDER BY
     AVGTotalArea DESC;**
 ![Upper_Middle_Income_Region](https://github.com/KemyMor/Deforestation_Cohort-Project.Sql/blob/37b96d8524ca92debe6b04762a35f0d4a1add2b8/Upper_Middle_Income_Region.jpg)
 
-*Comparing the above result with the rest of the income categories, it was observed the follwoing;
-The income group of a particular region is strongly dependent on the total area coverage. 
-The higher the total average land area the higher the income group. 
+*Comparing the above result with the rest of the income categories, it was observed the following;
+The income group of a particular region is not strongly dependent on the total area coverage.One will think that the land area is contribution factor to the income group, but it will clear seen that its not a function of land coverage. 
 see below query table*
 ![High_Upper_Middle_Income_Regions](https://github.com/KemyMor/Deforestation_Cohort-Project.Sql/blob/37b96d8524ca92debe6b04762a35f0d4a1add2b8/High_Upper_Middle_Income_Regions.jpg)
 
@@ -52,7 +51,6 @@ see below query table*
 ![Upper_Low_Income_Region](https://github.com/KemyMor/Deforestation_Cohort-Project.Sql/blob/37b96d8524ca92debe6b04762a35f0d4a1add2b8/Upper_Low_Income_Region.jpg)
 
 ## Question 4: Determine the total forest area in square km for countries in the 'high income' group. 
-   ----Compare result with the rest of the income categories.
 **SELECT 
     DISTINCT Regions.country_name,
 	Regions.income_group,
